@@ -1,0 +1,87 @@
+section {
+    height: 850px;
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_block {
+    height: 462px;
+    width: 1200px;
+    margin: 0 120px 120px 120px;
+}
+
+.text_block_blog>h1 {
+    height: 132px;
+    width: 427px; 
+    font-family: 'Oswald', sans-serif;
+    font-size: 56px;
+    line-height: 66px;
+    margin-top: 185px;
+}
+
+.text_block_blog_review>p {
+    height: 78px;
+    width: 484px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 53px;
+}
+
+.text_block_blog_review_acc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_block_blog_review_acc_photo {
+    margin-top: 2px;
+}
+
+.text_block_blog_review_acc_NS {
+    height: 56px;
+    width: 300px;
+    margin-right: 84px;
+}
+
+.text_block_blog_review_acc_NS_name {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 13px;
+}
+
+.text_block_blog_review_acc_NS_star {
+    display: flex;
+    margin-top: 10px;
+}
+
+.text_block_blog_review_button {
+    height: 52px;
+    width: 176px;
+    background-color: #FFA322;
+    color: #FFFFFF;
+    border-radius: 30px;
+    margin-top: 42px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 13px;
+}
+
+
+.img_block {
+    position: relative;
+    height: 750px;
+    right: 129px;
+    top: 75px;
+}
+
+.img_block>img {
+    height: 750px;
+    width: 822px;
+    right: 100px;
+}
+
