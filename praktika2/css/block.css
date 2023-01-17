@@ -1,29 +1,30 @@
 section {
-    height: 850px;
-    width: 1440px;
+    min-height: 850px;
+    max-width: 1440px;
+    padding: 0 120px;
     display: flex;
-    justify-content: space-between;
 }
 
 .text_block {
-    height: 462px;
-    width: 1200px;
-    margin: 0 120px 120px 120px;
+    min-height: 462px;
+    max-width: 600px;
+    position: relative;
+    z-index: 1;
 }
 
-.text_block_blog>h1 {
+.text_block_blog > h1 {
     height: 132px;
-    width: 427px; 
-    font-family: 'Oswald', sans-serif;
+    width: 427px;
+    font-family: "Oswald", sans-serif;
     font-size: 56px;
     line-height: 66px;
     margin-top: 185px;
 }
 
-.text_block_blog_review>p {
+.text_block_blog_review > p {
     height: 78px;
     width: 484px;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 26px;
     margin-top: 53px;
@@ -45,7 +46,7 @@ section {
 }
 
 .text_block_blog_review_acc_NS_name {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 18px;
     line-height: 28px;
     margin-top: 13px;
@@ -59,11 +60,11 @@ section {
 .text_block_blog_review_button {
     height: 52px;
     width: 176px;
-    background-color: #FFA322;
-    color: #FFFFFF;
+    background-color: #ffa322;
+    color: #ffffff;
     border-radius: 30px;
     margin-top: 42px;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     font-size: 14px;
     line-height: 24px;
     text-align: center;
@@ -71,17 +72,14 @@ section {
     padding-top: 13px;
 }
 
-
 .img_block {
-    position: relative;
-    height: 750px;
-    right: 129px;
-    top: 75px;
+    max-width: 100%;
+    margin-top: 120px;
+    height: auto;
 }
 
-.img_block>img {
-    height: 750px;
-    width: 822px;
+.img_block > img {
+    max-height: 750px;
+    /* max-width: 822px; */
     right: 100px;
 }
-

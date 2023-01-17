@@ -4,39 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/rest.css">
     <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../bootstrap-5.3.0-alpha1/dist/css/bootstrap.css">
     <link rel="stylesheet" href="../praktika2/css/header.css">
     <link rel="stylesheet" href="../praktika2/css/block.css">
     <link rel="stylesheet" href="../praktika2/css/footer.css">
+    <link rel="stylesheet" href="../praktika2/css/adaptation.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="./css/adaptation.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap" rel="stylesheet">
     <title>Document</title>
+
 </head>
 <body>
+
     <main>
         <header>
-            <div class="main_h">
-                <div class="menu">
-                    <div class="logo">
-                        <img src="/praktika2/img/logo.png" alt="">
+
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <div class="logo">
+                            <img src="../praktika2/img/logo.png" alt="">
+                        </div>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav menu_button">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">PRICING</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">BLOG</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ">CONTACT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ">
+                                    <div class="header_button d-lg-none">PURCHASE TEMPLATE</div>
+                                </a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="menu_button">
-                        <div class="n">HOME</div>
-                        <div class="n">ABOUT</div>
-                        <div class="n">PRICING</div>
-                        <div class="n">BLOG</div>
-                        <div class="n">FAQ</div>
-                        <div class="n">CONTACT</div>
-                    </div>
+                    <div class="header_button d-none d-lg-block">PURCHASE TEMPLATE</div>
                 </div>
-                <div class="header_button">PURCHASE TEMPLATE</div>
-            </div>
+            </nav>
         </header>
 
-        <section>
+        <section class="block">
             <div class="text_block">
                 <div class="text_block_blog">
                     <h1>DIGITAL MARKETING. CREATIVE DESIGN.</h1>
@@ -57,8 +86,10 @@
                                 </div>
                             </div>
                         </div>
+                    <div class="btn">
                         <div class="text_block_blog_review_button">GET STARTED NOW</div>
                     </div>
+                </div>
                 </div>
             </div>
             <div class="img_block">
@@ -107,8 +138,7 @@
                     <div>404</div>
                 </div>
             </div>
-        </footer>
-        <footer>
+
             <div class="second">
                 <div class="second_text">
                     <div class="a">CREATED WITH LOVE BY</div>
@@ -124,14 +154,9 @@
         </footer>
 
 
-
-
-
-
-
-
     </main>
     <script src="../bootstrap-5.3.0-alpha1/dist/js/bootstrap.bundle.js"></script>
-    <script src="../bootstrap-5.3.0-alpha1/dist/js/bootstrap.js"></script>
+
+
 </body>
 </html>
